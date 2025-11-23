@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Squeakr Ball</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background: #fefefe; }
+    header { background-color: #ff6600; color: white; padding: 50px 20px; text-align: center; }
+    header h1 { font-size: 2.5em; margin-bottom: 10px; }
+    header p { font-size: 1.2em; }
+    section { padding: 40px 20px; max-width: 800px; margin: auto; }
+    section h2 { color: #ff6600; margin-bottom: 20px; text-align: center; }
+    .features { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .feature { flex: 1 1 250px; background: #fff3e0; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    .feature h3 { margin-bottom: 10px; color: #ff6600; }
+    button, input[type="submit"] { display: block; margin: 20px auto; padding: 15px 30px; font-size: 1em; background-color: #ff6600; color: white; border: none; border-radius: 5px; cursor: pointer; transition: background 0.3s; }
+    button:hover, input[type="submit"]:hover { background-color: #e65c00; }
+    input[type="email"] { padding: 10px; width: 80%; max-width: 300px; border-radius: 5px; border: 1px solid #ccc; margin-bottom: 10px; }
+    footer { text-align: center; padding: 20px; background: #333; color: white; }
+    @media(max-width: 600px){ .features { flex-direction: column; } }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Squeakr Ball</h1>
+    <p>The interactive dog toy that keeps your pet happy, engaged, and connected to you!</p>
+  </header>
+
+  <section>
+    <h2>Why Squeakr Ball?</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Owner-Recorded Voice</h3>
+        <p>Play back your own voice to comfort your dog and make playtime more personal.</p>
+      </div>
+      <div class="feature">
+        <h3>Bluetooth App Control</h3>
+        <p>Connect with our mobile app to schedule sounds, record new clips, and access preset effects.</p>
+      </div>
+      <div class="feature">
+        <h3>Durable & Customisable</h3>
+        <p>Chew-resistant, non-toxic outer shell that can be swapped for different colours and textures.</p>
+      </div>
+      <div class="feature">
+        <h3>Smart Motion Activation</h3>
+        <p>The ball reacts naturally to movement, creating an interactive experience for your dog.</p>
+      </div>
+    </div>
+    <button onclick="window.location='mailto:robbmatty@outlook.com'">Contact Us</button>
+  </section>
+
+  <section>
+    <h2>Stay Updated</h2>
+    <p>Sign up for our newsletter to get updates, early access, and exclusive offers for Squeakr Ball!</p>
+
+    <!-- Newsletter form sending emails directly to your Outlook via Formsubmit.co -->
+    <form action="https://formsubmit.co/robbmatty@outlook.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="email" name="email" placeholder="Your email address" required>
+      <input type="submit" value="Sign Up">
+    </form>
+    <p style="text-align:center; font-size:0.9em; color:#666;">We respect your privacy. No spam.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Squeakr Ball. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
